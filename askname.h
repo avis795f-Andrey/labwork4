@@ -1,0 +1,1 @@
+void askname(string first, string last);
