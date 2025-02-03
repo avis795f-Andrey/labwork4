@@ -2,12 +2,18 @@
 #include <string>
 
 int main() {
-	string name;
+	string first, last;
 	
-	std::cout << "Enter your name: ";
-	std::cin >> name;
-	name[name.size() - 1] = ' '; // Replace the last character with a space
+	std::cout << "Enter your first name: ";
+	std::cin >> first;
+	first.resize(first.size() + 1); first[first.size() - 1] = ' '; // Adds a space to the end
 	
-	std::cout << "Hello, " << name;
+	std::cout << "Now enter your last name: ";
+	std::cin >> last;
+	
+	std::cout << first.size() << std::endl; // Debug line
+	
+	std::cout << "Hello, " << first << last;
+	
 	return 0;
 }
