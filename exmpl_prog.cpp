@@ -8,6 +8,6 @@ int main() {
 	std::cin >> name;
 	name[name.size() - 1] = ' '; // Replace the last character with a space
 	
-	std::cout << "Hello " << name;
+	std::cout << "Hello, " << name;
 	return 0;
 }
