@@ -8,7 +8,7 @@ int main() {
 	
 	askname(first, last);
 	
-	std::cout << "Hello, " << first << last;
+	std::cout << "Hi, " << first << last;
 	
 	return 0;
 }
